@@ -17,10 +17,11 @@
   },
   "homepage": "https://github.com/sebastianner/random-sentences#readme",
   "dependencies": {
-    "puppeteer": "^9.1.1"
+    "puppeteer": "^9.1.1",
+    "random-sentences": "^1.0.0"
   },
-  "bin":{
-    "random-sentence":"./bin/global.js"
+  "bin": {
+    "random-sentence": "./bin/global.js"
   },
-  "preferGlobal":true
+  "preferGlobal": true
 }
