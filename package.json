@@ -1,0 +1,26 @@
+{
+  "name": "random-sentences",
+  "version": "1.0.0",
+  "description": "Generate a random sentence",
+  "main": "src/index.js",
+  "scripts": {
+    "run": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianner/random-sentences.git"
+  },
+  "author": "sebastianner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastianner/random-sentences/issues"
+  },
+  "homepage": "https://github.com/sebastianner/random-sentences#readme",
+  "dependencies": {
+    "puppeteer": "^9.1.1"
+  },
+  "bin":{
+    "random-sentence":"./bin/global.js"
+  },
+  "preferGlobal":true
+}
